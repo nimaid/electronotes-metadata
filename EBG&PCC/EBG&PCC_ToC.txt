@@ -1,0 +1,136 @@
+                  Electronotes - Builder's Guide & Preferred Circuits Collection
+                                        by Bernie Hutchins
+                                        Table of Contents
+--------------------------------------------------------------------------------------------------
+Page #1    Cover Page
+Page #5    Table of Contents
+Page #7    Part One: Introduction, Basics, Plans
+Page #9    --- 1-1. Introduction
+Page #11   --- 1-2. Plan Of Attack
+Page #12   --- 1-3. The Actual Plan Of The Electronic Music System
+Page #13   --- 1-4. Deciding What Will Be In Your System
+Page #20   --- 1-5. How To Obtain The Parts You Need
+Page #23   --- 1-6. Building Your System
+Page #26   --- 1-7. System Integration
+Page #27   --- 1-8. Standards Used
+Page #28   --- 1-9. Substitution Of Op-Amps
+Page #31   --- 1-10. Modular Design
+Page #41   Part Two: Construction Practices
+Page #43   --- 2-1. Introduction
+Page #43   --- 2-2. Hints On Setting Up An Electronic Music Working Area
+Page #47   --- 2-3. How I Make My P.C. Boards In A Matter Of A Few Hours
+Page #50   --- 2-4. Putting Your Circuit Boards Inside Something
+Page #53   --- 2-5. Making Rack Panels
+Page #59   --- 2-6. Some More Suggestions On Actually Getting Construction Underway
+Page #63   --- 2-7. How To Actually Build Something
+Page #63   --- --- Part 1: AN-14 - Parts And Supplies
+Page #65   --- --- Part 2: AN-15 - Circuit Boards
+Page #67   --- --- Part 3: AN-16 - Soldering In Parts
+Page #69   --- --- Part 4: AN-17 - Packaging
+Page #71   --- --- Part 5: AN-18 - Miscellaneous Hints
+Page #73   Part Three: Preferred Circuits Collection
+Page #75   --- Power Supplies
+Page #77   --- --- PS-1: AN-1 - Five-Volt One-Amp Power Supplies For TTL
+Page #79   --- --- PS-2: AN-2 - Bipolar 15 Volt Supplies For Op-Amps
+Page #81   --- --- PS-3: AN-98 - IC Regulators For Small Bench Supplies
+Page #83   --- --- PS-4: AN-136 - An Op-Amp Supply Based On A 12.6V Filament Transformer
+Page #85   --- --- PS-5-Acc: Crowbar Circuit
+Page #85   --- --- PS-Extra: MEH-5j
+Page #87   --- Controller Interfaces
+Page #88   --- --- CI-1: EN#68 - The ENS-76 Home-Built Synthesizer System - Part 4
+Page #98   --- --- CI-2: EN#45 - Controller Interface CI-2
+Page #99   --- --- CI-3-Acc: MEH-7b - Ranging And Scaling Unit
+Page #100  --- --- CI-4: EN#124 - The ARP Surplus Three-Octave Keyboard
+Page #103  --- Voltage-Controlled Oscillators
+Page #105  --- --- EN#75 - The ENS-76 Home-Built Synthesizer System - Part 7, VCO Options
+Page #109  --- --- --- VCO-1
+Page #113  --- --- --- VCO-2
+Page #117  --- --- VCO-3: EN#67 - ENS-76 'Utility VCO'
+Page #118  --- --- VCO-4: EN#65 - Through-Zero VCO (Hall)
+Page #119  --- --- VCO-5: EN#69 - AM-FM Utility VCO Using XR2206 VCO Chip
+Page #120  --- --- VCO-6: EN#87 - 2030 VCO
+Page #121  --- --- VCO-7: EN#129 - A Voltage-Controlled Oscillator With Through-Zero FM Capability
+Page #131  --- Manually-Controlled Oscillators
+Page #133  --- --- MCO-1: AN-29 - Simple Sine Wave Oscillators
+Page #135  --- --- MCO-2: AN-67 - Simple Triangle-Square Oscillator
+Page #137  --- --- MCO-3: AN-79 - Some Simple Sawtooth Wave Generators
+Page #139  --- --- MCO-4: EN#88 - Peter Lutz's LFO
+Page #140  --- --- MCO-5: EN#53 - Inexpensive Function Generator (Craig Anderton)
+Page #141  --- --- MCO-6: EN#44 - Low-Frequency Control Oscillator
+Page #141  --- --- MCO-7: EN#83 - Simple Manually Tuned Triangle-Square Generator
+Page #143  --- Voltage-Controlled Amplifiers
+Page #145  --- --- VCA-1: EN#29(MEH-5c) - VCA Design Example #1 - VCA With Linear Response
+Page #146  --- --- VCA-2: EN#34(MEH-5c) - VCA Design Example #2 (Linear And Exponential Controls)
+Page #147  --- --- VCA-3: EN#63 - ENS-76 VCA Option 1
+Page #147  --- --- VCA-4: EN#87 - Synthesizer Voltage-Controlled Amplifier Using 2020
+Page #149  --- Envelope Followers
+Page #151  --- --- EF-1: EN#60 - Nicholas Collins' Envelope Follower
+Page #152  --- --- EF-2: EN#86 - R. Iodice's Envelope Follower
+Page #153  --- --- EF-3: EN#88 - Denny Genovese's Envelope Follower
+Page #154  --- --- EF-4: EN#89 - Envelope Follower With Ripple Reduction
+Page #155  --- Voltage-Controlled Filters
+Page #156  --- --- EN#71 - The ENS-76 Home-Built Synthesizer System - Part 5
+Page #158  --- --- --- VCF-1
+Page #162  --- --- --- VCF-2
+Page #164  --- --- VCF-3: EN#41 - Voltage-Controlled 4-Pole Network
+Page #165  --- --- VCF-4: EN#87 - Electronic Music Voltage-Controlled Lowpass Filter
+Page #166  --- --- VCF-5: EN#72 - ENS-76 VCF Option 3, Variable-Slope Filter
+Page #168  --- --- VCF-6: EN#90 - The High-Ripple VCF
+Page #169  --- --- VCF-7: EN#92 - Quasi-Digital Bi-N-Tic Filter (Jan Hall)
+Page #170  --- --- VCF-8: EN#97 - Dual SSM-2040 Filter
+Page #171  --- Timbre Modulators
+Page #173  --- --- TM-1: EN#72 - Timbre Modulator - Option 1
+Page #175  --- --- TM-2: EN#84 - An Odd-Harmonic To Even-Harmonic Timbre Modulator
+Page #179  --- --- TM-3: EN#72 - Double-Pulse Waveform Shaper (Ian Fritz)
+Page #181  --- Envelope Generators
+Page #183  --- --- EN#66 - The ENS-76 Home-Built Synthesizer System - Part 2
+Page #184  --- --- --- EG-1
+Page #187  --- --- --- EG-2
+Page #190  --- --- EG-3: MEH-5e - Simple AD Envelope Generator
+Page #190  --- --- EG-4: EN#45 - ADSR Envelope Generator #1
+Page #191  --- --- EG-5: EN#87 - 2050 External Connections
+Page #192  --- --- EG-6: EN#86 - Envelope-Transient Generator
+Page #193  --- --- EG-7: EN#92 - AD + AR Envelope Generator (Ian Fritz)
+Page #195  --- Balanced Modulators
+Page #196  --- --- BM-1: EN#63 - ENS-76 Balanced Modulator - Option 1
+Page #197  --- --- BM-2: MEH-5f - Balanced Modulator Design Example
+Page #199  --- --- BM-3: EN#134 - Integrated Musical Electronics - Part 2: Balanced Modulator
+Page #201  --- --- BM-4: EN#113 - Switchable VCA/Balanced Modulator Circuit Based On The LM/XR
+                   13600 Transconductance Amplifier (Ian Fritz)
+Page #207  --- Frequency Shifter
+Page #209  --- --- EN#83 - The ENS-76 Home-Built Synthesizer System - Part 9, Frequency Shifter
+Page #225  --- Sample And Hold Units
+Page #227  --- --- S&H-1: MEH-5g - Sample-And-Hold Design Example
+Page #228  --- --- S&H-2: EN#61 - Sample And Hold (With Additional Features)
+Page #229  --- Slewing Circuits
+Page #231  --- --- EN#42 - Slew Limiting Ideas (Paul Titchener, Terry Mikulic)
+Page #231  --- --- --- SC-1
+Page #231  --- --- --- SC-2
+Page #231  --- --- --- SC-3
+Page #232  --- --- SC-4: EN#59 - Paul Titchener's Voltage-Controlled Slew Limiter
+Page #233  --- Noise Sources
+Page #235  --- --- EN#76 - The ENS-76 Home-Built Synthesizer System - Part 8, Random Sources
+Page #235  --- --- --- NS-1: ENS-76 Random Source - Option 1
+Page #237  --- --- --- NS-2: ENS-76 Random Source - Option 2
+Page #242  --- --- --- Further Options
+Page #249  --- --- NS-3: EN#30 - ENS-73 Noise Source (Dave Rossum)
+Page #249  --- --- NS-4: EN#64 - White Noise Generator
+Page #251  --- --- NS-5: AN-143 - Simple Noise Sources
+Page #253  --- Analog Delay Lines
+Page #255  --- --- ADL-1: EN#72 - Delay Module/Sub-Module Option 1
+Page #256  --- --- ADL-2: EN#87 - Delay Line Setup Using MN3005 (Jan Hall)
+Page #257  --- --- ADL-3: AN-35 - Delay Line Setup Using The SAD-1024
+Page #259  --- Animators
+Page #261  --- --- ANM-1: EN#87 - Full Circuit of Multi-Phase Waveform Animator
+Page #262  --- --- ANM-2: EN#102 - VC LFO's and Summers
+Page #265  Part Four: Appendices
+Page #267  --- A. EN#91 - But What Should I Start Building Right Now?
+Page #271  --- B. Aids On Obtaining Parts
+Page #275  --- C. Troubleshooting
+Page #275  --- --- 1 - AN-131
+Page #277  --- --- 2 - AN-132
+Page #279  --- --- 3 - AN-133
+Page #281  --- --- 4 - AN-134
+Page #283  --- D. Information On Special Purpose Electronic Music IC's
+Page #291  --- E. Useful References
+        Page count: 292
